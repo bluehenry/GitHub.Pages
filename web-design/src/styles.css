@@ -1,72 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-body, html {
-    height: 100%;
-    margin: 0;
-}
-
-a {
-    color: black;
-}
-
-a:hover {
-    color: gray;
-}
-
-.container {
-    height: 100%; 
-    width: 100%;    
-    margin: 0;    
-    padding: 0;
-}
-
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-/* Top right text */
-.top-right {
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-}
-
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 1rem;
-}
-
-/* Centered text */
-.bottom-centered {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 1rem;
-}
-
 .logo {
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
-.bg {
-    /* Full height */
-    height: 100%; 
-    width: 100%;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
-    display: block;
+.header {
+    margin: 0.5rem;     
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
+.background-image {
+    background: url(https://source.unsplash.com/wn-KYaHwcis/4096×2726);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment:fixed;
+    background-size: cover;    
+}
+
+.kangaroo-img {
+    border-radius: 50%;
+    width: 10%;    
 }
